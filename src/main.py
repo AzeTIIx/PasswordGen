@@ -4,6 +4,7 @@ from tkinter import *
 import tkinter as tk
 
 fenetre = tk.Tk()
+fenetre.title("Password Generator")
 fenetre.geometry("400x250")
 
 
