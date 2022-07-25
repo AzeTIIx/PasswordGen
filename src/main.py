@@ -34,7 +34,7 @@ champ_label = Label(fenetre, text="Générateur de mots de passes")
 
 champ_label.pack()
 
-mdp = tk.Entry(fenetre, textvariable= textEntry)
+mdp = tk.Entry(fenetre, textvariable= textEntry, width=40)
 mdp.configure(state="readonly")
 mdp.pack()
 
